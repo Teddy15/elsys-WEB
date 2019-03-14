@@ -2,7 +2,6 @@ body {
 	font: normal .80em 'trebuchet ms', arial, sans-serif;
   	background: #3c0d35
 }
-
   
 #header { 
 	background: #fff ;
@@ -116,6 +115,7 @@ ul#menu li a {
   	padding: 0 0 10px 120px ;
   	text-align: center;
   	font-size: 15px;
+  	color: #3c0d35;
 }
 
 #content-text {
