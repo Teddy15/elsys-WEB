@@ -1,0 +1,140 @@
+body { 
+	font: normal .80em 'trebuchet ms', arial, sans-serif;
+  	background: #3c0d35
+}
+
+  
+#header { 
+	background: #fff ;
+  	background-size: 960px 600px;
+  	height: 240px;
+  	width: 898px;
+  	margin-left: auto; 
+  	margin-right: auto;
+}
+
+p { 
+	padding: 0 20px 20px 200px;
+  	line-height: 1.7em;
+  	color: #3c0d35;
+}
+
+#main, #logo, #menubar, #footer{ 
+	margin-left: auto; 
+  	margin-right: auto;
+}
+
+#logo { 
+	width: 825px;
+  	position: relative;
+  	height: 168px;
+}
+
+#logo #logo_text { 
+  	top: 20px;
+  	left: 0;
+}
+
+#logo h1, #logo h2 { 
+	font: normal 320% 'century gothic', arial, sans-serif;
+  	border-bottom: 0;
+  	text-transform: none;
+  	margin: 0;
+}
+
+#logo_text h1, #logo_text h1 a { 
+	padding: 50px 0 0 60px;
+  	color: #bf08ff;
+  	letter-spacing: 0.1em;
+  	text-decoration: none;
+}
+
+#logo_text h1 a .logo_colour { 
+	color: #f6aff0;
+}
+
+#logo_text h2 { 
+	font-size: 130%;
+  	padding: 4px 0 0 180px;
+  	color: #f6aff0;
+}
+
+#menubar { 
+	width: 898px;
+  	height: 72px;
+  	padding: 0;
+  	background:  #f6aff0;
+} 
+
+ul#menu, ul#menu li { 
+  float: left; 
+  margin: 0; 
+  padding: 10;
+}
+
+ul#menu li { 
+	list-style: none;
+}
+
+ul#menu li a { 
+	letter-spacing: 0.1em;
+  	font: normal 100% arial, sans-serif;
+  	display: block; 
+  	float: left; 
+  	height: 37px;
+  	padding: 29px 26px 6px 26px;
+  	text-align: center;
+  	color: #bf08ff;
+  	text-transform: uppercase;
+  	text-decoration: none;
+  	background: transparent;
+} 
+
+#footer { 
+	width: 898px;
+  	font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  	height: 35px;
+  	padding: 24px 0 5px 0;
+  	text-align: center; 
+  	background: #f6aff0;
+  	color: #bf08ff;
+  	text-transform: uppercase;
+  	letter-spacing: 0.1em;
+}
+
+#only-text {
+	width: 858px;
+    overflow: hidden;
+  	margin: 0 auto 0 auto;
+  	padding: 20px 20px 20px 20px;
+  	background: white;
+}
+
+#content-text-title {
+	text-align: center;
+  	width: 580px;
+  	padding: 0 0 10px 120px ;
+  	text-align: center;
+  	font-size: 15px;
+}
+
+#content-text {
+	text-align: center;
+  	width: 580px;
+  	padding: 0 0 10px 40px ;
+  	text-align: center;
+  	font-size: 15px;
+}
+
+.about {
+	width: 75%;
+	height: 75%;
+	padding: 0 0 10px 100px ;
+	display: inline
+	align: middle;
+}
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+}
