@@ -2,18 +2,22 @@ body {
 	font: normal .80em 'trebuchet ms', arial, sans-serif;
   	background: #3c0d35
 }
+
+img {
+	display: block;
+    margin: 0 auto;
+}
   
 #header { 
 	background: #fff ;
-  	background-size: 960px 600px;
-  	height: 240px;
-  	width: 898px;
+  	background-size: 50% 50%;
+  	height: 49%;
+  	width: 49%;
   	margin-left: auto; 
   	margin-right: auto;
 }
 
 p { 
-	padding: 0 20px 20px 200px;
   	line-height: 1.7em;
   	color: #3c0d35;
 }
@@ -42,7 +46,7 @@ p {
 }
 
 #logo_text h1, #logo_text h1 a { 
-	padding: 50px 0 0 60px;
+	text-align: center;
   	color: #bf08ff;
   	letter-spacing: 0.1em;
   	text-decoration: none;
@@ -54,21 +58,18 @@ p {
 
 #logo_text h2 { 
 	font-size: 130%;
-  	padding: 4px 0 0 180px;
+  	text-align: center;
   	color: #f6aff0;
 }
 
 #menubar { 
-	width: 898px;
+	width: 895px;
   	height: 72px;
-  	padding: 0;
   	background:  #f6aff0;
 } 
 
 ul#menu, ul#menu li { 
-  float: left; 
   margin: 0; 
-  padding: 10;
 }
 
 ul#menu li { 
@@ -78,11 +79,10 @@ ul#menu li {
 ul#menu li a { 
 	letter-spacing: 0.1em;
   	font: normal 100% arial, sans-serif;
-  	display: block; 
+  	display: inline-block; 
   	float: left; 
   	height: 37px;
-  	padding: 29px 26px 6px 26px;
-  	text-align: center;
+  	padding: 29px 26px 6px 26px;  	
   	color: #bf08ff;
   	text-transform: uppercase;
   	text-decoration: none;
@@ -90,9 +90,12 @@ ul#menu li a {
 } 
 
 #footer { 
-	width: 898px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
   	font: normal 100% 'lucida sans unicode', arial, sans-serif;
-  	height: 35px;
+  	height: 49%;
+  	width: 49%;
   	padding: 24px 0 5px 0;
   	text-align: center; 
   	background: #f6aff0;
@@ -102,36 +105,40 @@ ul#menu li a {
 }
 
 #only-text {
-	width: 858px;
+	width: 49%;
     overflow: hidden;
   	margin: 0 auto 0 auto;
-  	padding: 20px 20px 20px 20px;
+  	
   	background: white;
 }
 
 #content-text-title {
 	text-align: center;
-  	width: 580px;
-  	padding: 0 0 10px 120px ;
+  	width: 49%;
+  	
+  	margin-left: auto;
+  	margin-right: auto;
+  	
   	text-align: center;
   	font-size: 15px;
   	color: #3c0d35;
 }
 
-#content-text {
-	text-align: center;
-  	width: 580px;
-  	padding: 0 0 10px 40px ;
+#content-text {  	
+  	width: 50%;
+  	margin-left: auto;
+  	margin-right: auto;
   	text-align: center;
   	font-size: 15px;
 }
 
 .about {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 	width: 75%;
 	height: 75%;
-	padding: 0 0 10px 100px ;
-	display: inline
-	align: middle;
+
 }
 
 @media only screen and (max-width: 700px) {
