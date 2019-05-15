@@ -114,7 +114,7 @@ ul#menu li a {
 
 #content-text-title {
 	text-align: center;
-  	width: 49%;
+  	width: 50%;
   	
   	margin-left: auto;
   	margin-right: auto;
@@ -129,7 +129,7 @@ ul#menu li a {
   	margin-left: auto;
   	margin-right: auto;
   	text-align: center;
-  	font-size: 15px;
+  	font-size: 20px;
 }
 
 .about {
@@ -140,6 +140,8 @@ ul#menu li a {
 	height: 75%;
 
 }
+
+
 
 @media only screen and (max-width: 700px) {
     .modal-content {
